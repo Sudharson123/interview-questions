@@ -1,0 +1,90 @@
+Q1) Explain logical operators in Python?
+A).   We have three logical operators- and, or, not.
+
+	>>> False and True
+	False
+
+	>>> 7<7 or True
+	True
+
+	>>> not 2==2
+	False
+Q2) What are membership operators?
+
+A). With the operators ‘in’ and ‘not in’, we can confirm if a value is a member in another.
+
+	>>> 'me' in 'disappointment'
+	True
+
+	>>> 'us' not in 'disappointment'
+	True
+
+Q.3)  Explain identity operators in Python?
+
+A)     The operators ‘is’ and ‘is not’ tell us if two values have the same identity.
+
+	>>> 10 is '10'
+	False
+
+	>>> True is not False
+	True
+Q4) Explain the //, %, and ** operators in Python?
+
+     The // operator performs floor division. It will return the integer part of the result on division.
+
+	>>> 7//2
+	3
+
+	Normal division would return 3.5 here.
+
+	Similarly, ** performs exponentiation. a**b returns the value of a raised to the power b.
+
+	>>> 2**10
+	1024
+
+	Finally, % is for modulus. This gives us the value left after the highest achievable division.
+
+	>>> 13%7
+	6
+
+	>>> 3.5%1.5
+	0.5
+Q5)   What do you know about relational operators in Python?
+A).    Relational operators compare values.
+
+	Less than (<) If the value on the left is lesser, it returns True.
+
+	>>> 'hi'<'Hi'
+	False
+	Greater than (>) If the value on the left is greater, it returns True.
+
+	>>> 1.1+2.2>3.3
+	True
+
+	This is because of the flawed floating-point arithmetic in Python, 
+	due to hardware dependencies.
+
+	Less than or equal to (<=) If the value on the left is lesser than or equal to, 
+	it returns True.
+
+	>>> 3.0<=3
+	True
+
+	Greater than or equal to (>=) If the value on the left is greater than or
+	 equal to, it returns True.
+
+	>>> True>=False
+	True
+
+	Equal to (==) If the two values are equal, it returns True.
+
+	>>> {1,3,2,2}=={1,2,3}
+	True
+
+	Not equal to (!=) If the two values are unequal, it returns True.
+
+	>>> True!=0.1
+	True
+
+	>>> False!=0.1
+	True

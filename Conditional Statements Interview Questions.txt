@@ -1,0 +1,66 @@
+Q1. What is  If statement?
+A.   If statement is most usually used as a conditional statement. 
+      Syntax:
+	if(condition):    
+	{    
+	#if statement  
+	}  
+Q2.  What is If else statement?
+A.    If else is a conditional statement. The statement itself says that 
+       if a given condition is true or false. True means executing the 
+      “if” statement to the output.  False means executing the “else” 
+       statement to the output.
+       Syntax:
+	if(condition):    
+	{    
+	   # if statement  
+	}    
+	else:    
+	{    
+ 	  # else statement  
+	}     
+Q3.   What is Elif statement?
+A.     Elif is a shortcut of else if condition statements. In Python one or more
+        conditions are used in the elif statement.
+       Syntax:
+	if(condition):  
+	{  
+   	# if statement  
+	}  
+	elif(condition):  
+	{  
+   	# elif statement  
+	}  
+	else:  
+	{  
+   	# else statement  
+	}
+Q4.   What is Nested if statement?
+ A.    In python is using "if" statements inside other if statements it is called nested if statement.
+        Syntax
+	if(condition):  
+	{  
+ 	    if(condition):  
+   	  {  
+   	     # if statement  
+  	   }  
+	}  
+Q5.    What is Nested if else statement?
+A.      In Python is using one “if else” statement inside other  if else statements it is called 
+         nested if else statement. 
+         Syntax:
+	if(condition):  
+	{  
+ 	    if(condition):  
+   	  {  
+      	 #if statement  
+    	 }  
+     	else:  
+    	 {  
+     	   #else statement  
+   	  }  
+	}  
+	else:  
+	{  
+	 #else statement  
+	}  

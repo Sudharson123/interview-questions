@@ -1,0 +1,50 @@
+Q1. What is a function?
+A.   When we want to execute a sequence of statements, we can give it a name. 
+      Let’s define a function to take two numbers  and return the greater number.
+      Ex:-
+	>>> def greater(a,b):
+	return a is a>b else b
+	>>> greater(3,3.5)
+	3.5
+
+Q2. What is recursion?
+A.   When a function makes a call to itself, it is termed recursion. But then, in order for it 
+      to avoid forming an infinite loop, we must have a base condition.
+
+       Let’s take an example.
+
+	>>> def facto(n):
+	if n==1: return 1
+	return n*facto(n-1)
+	>>> facto(4)
+	24
+Q3. What does the function zip() do?
+A.   One of the less common functions with beginners, zip() returns an iterator of tuples.
+
+	>>> list(zip(['a','b','c'],[1,2,3]))
+	[(‘a’, 1), (‘b’, 2), (‘c’, 3)]
+
+        Here, it pairs items from the two lists and creates tuples with those.
+       But it doesn’t have to be lists.
+
+	>>> list(zip(('a','b','c'),(1,2,3)))
+	[(‘a’, 1), (‘b’, 2), (‘c’, 3)]
+
+Q4.   What is break, continue and pass in Python?
+A.    Break	:      The break statement terminates the loop immediately and the control 
+                         flows to the statement after the body of the loop.
+      Continue:  The continue statement terminates the current iteration of the statement,
+                        skips the rest of the code in the current iteration and the control flows to the 
+                        next iteration of the loop.
+       Pass:        As explained above, the pass keyword in Python is generally used to fill up empty
+                     blocks and is similar to an empty statement represented by a semi-colon in languages 
+                      such as Java, C++, Javascript, etc.
+
+
+Q5.  Explain split() and join() functions in Python?
+A.    You can use split() function to split a string based on a delimiter to a list of strings.
+       You can use join() function to join a list of strings based on a delimiter to give a single string.
+	string = "This is a string."
+	string_list = string.split(' ') #delimiter is ‘space’ character or ‘ ‘
+	print(string_list) #output: ['This', 'is', 'a', 'string.']
+	print(' '.join(string_list)) #output: This is a string.
